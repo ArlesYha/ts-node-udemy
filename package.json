@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --esm ./src/main.ts"
+    "start": "nodemon src/main.ts --ext ts"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
